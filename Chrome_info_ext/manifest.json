@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "Chrome Device Info",
+    "short_name": "Chrome Info",
+    "description": "Shows detailed info about an enterprise enrolled Chrome device.",
+    "version": "1",
+    "action": {
+      "default_popup": "popup.html",
+      "default_title": "Chrome Device Info"
+      },
+    "permissions": [
+      "identity",
+      "identity.email",
+      "enterprise.deviceAttributes"
+      ],
+    "storage": {
+      "managed_schema": "schema.json"
+      }
+  }
