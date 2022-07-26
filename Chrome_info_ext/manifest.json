@@ -3,7 +3,7 @@
     "name": "Chrome Device Info",
     "short_name": "Chrome Info",
     "description": "Shows detailed info about an enterprise enrolled Chrome device.",
-    "version": "2",
+    "version": "22",
     "action": {
       "default_popup": "popup.html",
       "default_title": "Chrome Device Info"
@@ -14,7 +14,7 @@
       "enterprise.deviceAttributes"
       ],
 	 "host_permissions": [
-		"http://str-webdev-svr/*/*"
+		"https://str-webdev-svr/*/*"
 	],
     "storage": {
       "managed_schema": "schema.json"
